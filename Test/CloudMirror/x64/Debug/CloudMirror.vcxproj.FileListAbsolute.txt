@@ -1,0 +1,3 @@
+C:\Test\CloudMirror\x64\Debug\CloudMirror.vcxproj.MdMergeInputs.cache
+C:\Test\CloudMirror\x64\Debug\CloudMirror.vcxproj.cppwinrt_plat.cache
+C:\Test\CloudMirror\x64\Debug\CloudMirror.vcxproj.cppwinrt_comp.cache
