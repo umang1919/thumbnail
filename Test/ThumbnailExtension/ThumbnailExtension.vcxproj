@@ -95,6 +95,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>ThumbnailExtension.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -162,6 +163,9 @@
     <ClCompile Include="ShellExtentions.cpp" />
     <ClCompile Include="ShellServices.cpp" />
     <ClCompile Include="ThumbnailProvider.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThumbnailExtension.def" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

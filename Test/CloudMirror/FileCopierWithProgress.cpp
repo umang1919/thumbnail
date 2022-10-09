@@ -29,6 +29,7 @@
 
 #pragma once
 
+#define UMDF_USING_NTSTATUS 1
 #include "Windows.h"
 #include "cfapi.h"
 #include "FileCopierWithProgress.h"
@@ -36,7 +37,7 @@
 #include <ntstatus.h>
 #include "Utilities.h"
 
-#include <winrt\Windows.Foundation.h>
+//#include <winrt\Windows.Foundation.h>
 
 // Since this is a local disk to local-disk copy, it would happen really fast.
 // This is the size of each chunk to be copied due to the overlapped approach.
